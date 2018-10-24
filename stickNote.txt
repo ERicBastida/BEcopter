@@ -1,0 +1,56 @@
+BEcopter   -  Cosas para hacer
+____________________________________________________________________________________________
+x Terminado , - En curso ,  ° Para hacer
+____________________________________________________________________________________________
+xTerminar interfaz de conexion
+xArreglar macana que me mande 
+xSigue capturando luego de terminar la aplicacion. 
+x Arreglar Joystick e implementar lógica
+xAgregar logica en los botones
+x Implementar aterrizar de manera manual y todas las otras funcionalidades GIL
+x Agregar para guardar Invertir o no
+x No detecta el joystick cuando se lo conecta después de iniciada la aplicacion 
+x Mostrar de alguna manera el estado del vehículo (manual o automatico) 
+xRellenar la info de parametros (Pestaña configuración ) 
+x Agregar calculo del prblema gráfico
+x Agregar QPainter - Class
+
+
+°Agregar lo del StyleEric
+°GraphData -> Normalizar
+°Ver el tema de velocidad motores
+
+-Agregar el problema de PWM y PPM al informe
+° Manual de usuario HACELO GIL!
+
+
+
+
+
+
+MAG_ENABLE
+GPS_AUTO_CONFIG
+ESC_CALIBRATION
+COMPASS_CAL_FIT
+
+EK2_GPS_CHECK
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ErnestoCalvo2018@outlook.com
+contrasena2018
+26/04/60
+
+maxiccuello@gmail.com
+maximilianocuello2017
