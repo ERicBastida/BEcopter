@@ -1,0 +1,18 @@
+class ComboBox(QtGui.QComboBox):
+    popupAboutToBeShown = QtCore.pyqtSignal()
+    prevIndex = 0
+    __function = None
+    __arguments = None
+    def showPopup(self):
+        self.popupAboutToBeShown.emit()
+        if self.__function != None:
+                self.__function(self.__arguments)
+
+        super(ComboBox, self).showPopup()
+        self.prevIndex = self.currentIndex()
+
+    def addCallback(self,f, *arg):
+        self.__function = f
+        self.__arguments = arg
+    def previusIndex(self):
+        return self.prevIndex
