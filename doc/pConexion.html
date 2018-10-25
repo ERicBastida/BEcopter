@@ -1,0 +1,259 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="es" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="es" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Pestaña de Conexión &mdash; documentación de BEcopter - </title>
+  
+
+  
+  
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="index" title="Índice" href="genindex.html" />
+    <link rel="search" title="Búsqueda" href="search.html" />
+    <link rel="next" title="Pestaña de Comando" href="pComando.html" />
+    <link rel="prev" title="Pestaña de Inicio" href="pInicio.html" /> 
+
+  
+  <script src="_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="index.html" class="icon icon-home"> BEcopter
+          
+
+          
+            
+            <img src="_static/BEcopter.png" class="logo" alt="Logo"/>
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                1.0
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Contenido:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="Introduccion.html">Introducción a BEcopter</a></li>
+<li class="toctree-l1"><a class="reference internal" href="pInicio.html">Pestaña de Inicio</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Pestaña de Conexión</a></li>
+<li class="toctree-l1"><a class="reference internal" href="pComando.html">Pestaña de Comando</a></li>
+<li class="toctree-l1"><a class="reference internal" href="pConfiguracion.html">Pestaña de Configuración</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">BEcopter</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html">Docs</a> &raquo;</li>
+        
+      <li>Pestaña de Conexión</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="pestana-de-conexion">
+<h1>Pestaña de Conexión<a class="headerlink" href="#pestana-de-conexion" title="Enlazar permanentemente con este título">¶</a></h1>
+<p>En esta pestaña como su nombre si indica se brindan las opciones referentes a la conexión con el vehículo.
+Además, muestra información (una vez conectado) del estado del vehículo, como también los mensajes que se
+intercambian.</p>
+<a class="reference internal image-reference" href="_images/pConexion.JPG"><img alt="_images/pConexion.JPG" class="align-center" src="_images/pConexion.JPG" style="width: 848.4px; height: 442.4px;" /></a>
+<p>En la región de conectar, tenemos disponible de dos campos. El primero es para ingresar el IP de red asignado
+a la maquina en el cual está corriendo <em>BEcopter</em>. Debemos prestar atención en que debemos estar conectados
+a la misma red al que está conectado el vehículo. Una vez ingresado ese valor y dejando por defecto el
+puerto ya asignado (siempre y cuando estos valores sean los mismos que estén configurados en el vehículo) para más información
+se puede consultar el siguiente link de <a class="reference external" href="https://docs.emlid.com/navio2/common/ardupilot/installation-and-running/">Navio2</a></p>
+<p>En el apartado de <em>Registro de conexión</em> obtendremos toda información referente a los mensajes que hemos enviado
+al vehículo y en contraparte con respecto al vehículo.</p>
+<div class="admonition warning">
+<p class="first admonition-title">Advertencia</p>
+<p class="last">Por lo tanto, es de buena práctica utilizar dicha información en caso de que ocurriera algún tipo de error o inconsistencia.</p>
+</div>
+<p>Una vez conectados al vehículo en la región de <em>Información obtenida</em> se mostrarán datos tales como :
+* <strong>Tipo de vehículo:</strong> Ya sea tricóptero, hexacóptero, cudricóptero, etc.
+* <strong>Firmware:</strong>  La información mostrada aquí, corresponderá a la versión del firmware instalado en el vehículo.</p>
+<div class="admonition attention">
+<p class="first admonition-title">Atención</p>
+<p class="last">Corroborar que su vehículo se encuentre actualizado.</p>
+</div>
+<p>Antes de poder realizar un despegue es de suma importancia que el vehículo se encuentre en condiciones para realizarlo
+Es por tal motivo, que antes de comenzar a iniciar con las misiones o un despegue se deberá controlar que todos los sensores
+como GPS, Batería, Señal , posicionamiento estén correctamente en condiciones. En caso contrario el inicio de un despegue será simplemente
+rechazado.</p>
+<p>En el apartado de <em>Sistema</em> tenemos dos iconos, el primero representa el resultado si el vehículo está bien posicionado para
+iniciar el vuelo, para obtener este valor se comprueba que el vehículo no se encuentre muy inclinado (ya sea vertical o horizontalmente) , que no este en movimiento
+y los sensores calibrados, como compas, giróscopo y acelerómetro. Luego, el siguiente icono «es una traba de seguridad» con el fin
+de no incidir en un vuelo accidental, por lo tanto, una vez que el vehículo se encuentre en condiciones, es decir, todos los iconos muestren resultados favorables
+se tendrá que «ARMAR» el vehículo, para realizar esto se deberá enviar un comando mediante un Joystick ordenando a vehículo que este preparado para iniciar su vuelo.
+Este comando puede ser asignado al Joystick en la pestaña <em>COMANDO</em>.</p>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="pComando.html" class="btn btn-neutral float-right" title="Pestaña de Comando" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="pInicio.html" class="btn btn-neutral" title="Pestaña de Inicio" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2018, Eric Bastida.
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'./',
+            VERSION:'',
+            LANGUAGE:'es',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true,
+            SOURCELINK_SUFFIX: '.txt'
+        };
+    </script>
+      <script type="text/javascript" src="_static/jquery.js"></script>
+      <script type="text/javascript" src="_static/underscore.js"></script>
+      <script type="text/javascript" src="_static/doctools.js"></script>
+      <script type="text/javascript" src="_static/translations.js"></script>
+
+  
+
+  <script type="text/javascript" src="_static/js/theme.js"></script>
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

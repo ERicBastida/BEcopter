@@ -1,0 +1,41 @@
+.. BEcopter documentation master file, created by
+   sphinx-quickstart on Mon Sep 10 20:44:07 2018.
+   You can adapt this file completely to your liking, but it should at least
+   contain the root `toctree` directive.
+
+========
+BEcopter
+========
+
+*BEcopter* es un software que ha sido desarrollado como proyecto final de la carrera Ingeniería en Informática de la Universidad Nacional del litoral *UNL*
+provincia de Santa Fe, Argentina. El origen de este proyecto surge de la necesidad de integrantes del Centro de Investigación en Señales, Sistemas e Inteligencia *sinc(i)*
+en tener una plataforma que pueda pueda ser el intermediario para controlar y navegar un vehículo aéreo no tripulado.
+En este manual explicaremos como utilizar *BEcopter* con el fin de poder controlar su vehículo y ejecutar maniobras aéreas que serán enviadas desde una PC a a nuestro vehículo.
+ 
+Ventajas
+********
+
+BEcopter proporciona las siguientes facilidades 
+
+1. No es necesario un radio control, por lo general estos artefactos son caros y a la hora de poder controlar vehículos aéreos son obligatorios. Con BEcopter esto ya no es necesario y puede ser reemplazado por un simple Joystick de computadora.
+
+2. Es *Open Source* por lo tanto puede ser modificado a necesidad del usuario. 
+
+3. Su desarrollo esta orientado a no simplemente el control de un tipo de vehículo (aéreo), sino a varios, tales como vehículos terrestres y/o acuáticos. [#f1]_
+
+.. toctree::
+   :maxdepth: 5	
+   :caption: Contenido:
+   
+   Introduccion
+   pInicio
+   pConexion
+   pComando
+   pConfiguracion
+
+.. rubric:: Notas:
+
+.. [#f1] Dicha característica será implementada en las próximas versiones.
+
+
+
